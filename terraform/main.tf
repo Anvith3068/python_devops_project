@@ -21,4 +21,7 @@ resource "aws_instance" "python_devops_project" {
   tags = {
     Name = "python-devops-project"
   }
+  lifecycle {
+  prevent_destroy = true
+}
 }

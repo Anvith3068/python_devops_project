@@ -1,7 +1,7 @@
 variable "region" {
   description = "AWS region"
   type        = string
-  default     = "ap-east-1"
+  default     = "us-east-1"
 }
 
 variable "instance_type" {
@@ -13,18 +13,18 @@ variable "instance_type" {
 variable "key_name" {
   description = "SSH key pair name"
   type        = string
-  default     = "your-key-name"
+  default     = "devopskey"
 }
 
 variable "security_group_ids" {
   description = "Security group IDs"
   type        = list(string)
-  default     = ["sg-xxxxxxxx"]
+  default     = ["sg-0e9b7b8aa1c0ab4b6"]
 }
 
 variable "ami_id" {
   description = "AMI ID"
   type        = string
-  default     = "ami-xxxxxxxx"
+  default     = "ami-0c398cb65a93047f2"
 }
 
