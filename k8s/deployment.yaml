@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: python-app
-        image: python-app
+        image: anvith3068/python-devops-app:latest
         ports:
         - containerPort: 5000
 
