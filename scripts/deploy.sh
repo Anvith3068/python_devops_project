@@ -1,6 +1,6 @@
 #!/bin/bash
 
-IMAGE_NAME="your_dockerhub_username/python-devops-app:latest"
+IMAGE_NAME="anvith3068/python-devops-app:latest"
 CONTAINER_NAME="python-app"
 
 docker rm -f $CONTAINER_NAME || true
