@@ -19,10 +19,25 @@ Steps:
 5. App runs on Kubernetes
 
 Access:
-http://3.86.149.71:30007
+http:/i/3.86.149.71:30007
 
 Tools:
 Python, Docker, Jenkins, AWS EC2, EKS, Kubernetes, kubectl
 
 Author: Anvith Gowda
+
+
+
+
+## Screenshots
+
+### Jenkins Pipeline
+![Jenkins Pipeline](screenshots/Jenkins_pipeline)
+
+### Kubernetes Deployment
+![Kubernetes](screenshots/K8s_deployment)
+
+### Application Running
+![Browser](screenshots/Application_running)
+
 
