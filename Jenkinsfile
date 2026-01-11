@@ -44,6 +44,14 @@ pipeline {
                 sh './scripts/deploy.sh'
             }
         }
+	stage('Deploy to EKS') {
+            steps {
+               sh '''
+               kubectl apply -f k8s/
+                  '''
+    }
+}
+
     }
 }
 
