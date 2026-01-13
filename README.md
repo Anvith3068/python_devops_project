@@ -19,7 +19,7 @@ Steps:
 5. App runs on Kubernetes
 
 Access:
-http:/i/3.86.149.71:30007
+http:/3.86.149.71:30007
 
 Tools:
 Python, Docker, Jenkins, AWS EC2, EKS, Kubernetes, kubectl
